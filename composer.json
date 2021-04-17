@@ -1,0 +1,22 @@
+{
+    "name": "qdd/calculate",
+    "description": "test",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "CaoKang",
+            "email": "caokang@outlook.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4|8.*",
+        "ext-bcmath": "*",
+        "guzzlehttp/guzzle": "^7.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Qdd\\Calculate\\": "src/"
+        }
+    }
+}
